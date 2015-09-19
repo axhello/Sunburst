@@ -1,4 +1,3 @@
-@charset"utf-8";
 .display(@a:-webkit-box,@b:-webkit-flex,@c:-ms-flexbox,@d:flex){
 	display: @a;
     display: @b;
@@ -266,7 +265,7 @@ article sup a {
 code {
     background: #f6f5f3;
     border-radius: 2px;
-    font-family: Monaco,monospace;
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, Monaco, monospace;
     font-size: .8em;
     padding: 2px 3px 1px;
     -webkit-font-smoothing: initial;
@@ -420,7 +419,7 @@ figure {
 .site-content {
 	position: relative;
     margin: 0 auto;
-    max-width: 47.99999em;
+    max-width: 49.99999em;
     font-size: 16px;
     line-height: 1.8;
     overflow: hidden;
@@ -765,6 +764,14 @@ figure {
 	font-size: .9em;
 	margin: 1.1em 0 0;
 }
+
+li code {
+    color: #d14;
+}
+p code {
+    color: #d14;
+}
+
 .typo{
 	a{
 		color: #08c;
@@ -817,10 +824,6 @@ figure {
 		margin: 4px 0;
     	line-height: 1.5;
 	}
-}
-
-p code {
-    color: #d14;
 }
 
 .page-nav{
