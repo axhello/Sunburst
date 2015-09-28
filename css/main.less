@@ -348,6 +348,22 @@ figure {
     	padding: 6em 5em 4em;
 	}
 }
+@media screen and (max-width: 768px){
+	.site {
+        overflow-y:scroll
+    }
+	.site-header{
+		height: 100%;
+		width: 12em;
+		left: 0;
+		position: fixed;
+		top: 0;
+	}
+	.site-contentContainer{
+		
+    	padding: 5em 3em 3em!important;
+	}
+}
 @media screen and (max-width: 1163px){
   	.nav-hide .site-header {
 	  	-webkit-transform: translateY(-100%);
@@ -380,7 +396,7 @@ figure {
 		margin: 15px 0 0 25px!important;
 	}
 	.hentry {
-    	margin-bottom: 100px!important;
+    	margin-bottom: 80px!important;
 	}
 	.content-footer .post-nav{
 		border-top: none!important;
@@ -389,7 +405,7 @@ figure {
 		.post-nav {
 			.post-link-prev, .post-link-next{
 				display: inline!important;
-		    	padding: 5px!important;
+		    	padding: 0px!important;
 		    }
 		}
 	}
@@ -1015,6 +1031,7 @@ p code {
     overflow: hidden;
     box-shadow: 0 2px 3px #ddd;
     border-radius: 5px;
+    clear: both;
     h3{
 	  font-size: 2em;
 	  margin: 0.6em 0;
