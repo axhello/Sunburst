@@ -38,7 +38,6 @@
                 <label for="textarea" class="required"></label>
                 <textarea rows="8" cols="50" name="text" id="textarea" class="textarea" required ><?php $this->remember('text'); ?></textarea>
             </p>
-    		<p>
                 <button type="submit" class="submit"><?php _e('提交评论'); ?></button>
             </p>
     	</form>

@@ -12,8 +12,8 @@
 				</article>
 				<footer class="content-footer">
 				<nav id="post-nav" class="post-nav">
-     				<div class="post-link-prev prev"><?php $this->thePrev('<i></i>%s','<a>已经没有更多文章了</a>'); ?></div>
-     				<div class="post-link-next next"><?php $this->theNext('%s<i></i>','<a>已经没有更多文章了</a>'); ?></div>
+     				<div class="post-link-next next"><?php $this->thePrev('%s<i></i>','<a>已经没有更多文章了</a>'); ?></div>
+     				<div class="post-link-prev prev"><?php $this->theNext('<i></i>%s','<a>已经没有更多文章了</a>'); ?></div>
     			</nav>
 				</footer>
 			</section>	

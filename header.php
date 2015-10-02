@@ -39,13 +39,13 @@
 		<a href="/" class="header-photo" title="Home"></a>
 		<div class="header-social">
 			<nav class="socialnav">
-			<a href="#" class="social-icon social-icon-github" title="github">
+			<a href="#" target="_blank" class="social-icon social-icon-github" title="github">
 				<svg  viewBox="0 0 32 32"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-github"></use></svg>
 			</a>
-			<a href="#" class="social-icon social-icon-weibo" title="weibo">
+			<a href="#" target="_blank" class="social-icon social-icon-weibo" title="weibo">
 				<svg viewBox="0 0 32 32"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-weibo"></use></svg>
 			</a>
-			<a href="<?php $this->options->feedUrl(); ?>" class="social-icon social-icon-rss" title="rss">
+			<a href="<?php $this->options->feedUrl(); ?>" target="_blank" class="social-icon social-icon-rss" title="rss">
 				<svg  viewBox="0 0 32 32"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-rss"></use></svg>
 			</a>
 			</nav>
@@ -65,6 +65,9 @@
 				<li><a href="/" title="articles">Articles</a></li>
 				<li><a href="#" title="about">About</a></li></ul> -->
 			</nav>
+		</div>
+		<div class="copy">
+			<p>&copy; 2015 Theme By <a href="http://ciyuanai.net" target="_blank">Axhello</a>.</p>
 		</div>
 	</div>
 	<div class="header-menu">
