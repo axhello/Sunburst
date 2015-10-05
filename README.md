@@ -16,7 +16,12 @@ Typecho 主题 Sunburst--手机端响应式主题
 
 
 ## 截了个图
-
+**主题首页**
+![theme.jpg][1]
+**归档页面**
+![theme-1.jpg][2]
+[1]: https://dn-ciyuanai.qbox.me/2015/09/3545153507.jpg
+[2]: https://dn-ciyuanai.qbox.me/2015/09/3814110634.jpg
 ##主题演示
 ###=>[Demo](https://ciyuanai.net/?theme=Sunburst)
 
