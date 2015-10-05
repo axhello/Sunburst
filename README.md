@@ -23,7 +23,8 @@ Typecho 主题 Sunburst--手机端响应式主题
 [1]: https://dn-ciyuanai.qbox.me/2015/09/3545153507.jpg
 [2]: https://dn-ciyuanai.qbox.me/2015/09/3814110634.jpg
 ##主题演示
-###[Demo](https://ciyuanai.net/?theme=Sunburst)
+[Demo]()
+###<a href="https://ciyuanai.net/?theme=Sunburst" target="_blank">[Demo]</a>
 
 ##主题下载
-<a href="https://github.com/melifes/Sunburst/archive/master.zip" target="_blank">[Github]</a>
+###<a href="https://github.com/melifes/Sunburst/archive/master.zip" target="_blank">[Download]</a>
