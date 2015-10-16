@@ -32,7 +32,7 @@ $this->widget('Widget_Contents_Post_Recent', 'pageSize=10000')->to($archives);
             // $output .= '<li><span class="al_mon">'. $mon .' 月</span><ul class="al_post_list">'; //输出月份   
         // } 
             $day = $day_tmp;  
-        $output .= '<li><a href="'.$archives->permalink .'">'. $archives->title .'</a>&nbsp;(<time>'.$mon.' '.$day.','.$year.'</time>)</li>'; //输出文章日期和标题   
+        $output .= '<li><a href="'.$archives->permalink .'">'. $archives->title .'</a>&nbsp;&nbsp;[<time>'.$mon.' '.$day.','.$year.'</time>]</li>'; //输出文章日期和标题   
     endwhile;   
     $output .= '</ul></li></div>';   
     echo $output;   
