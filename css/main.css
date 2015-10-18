@@ -768,9 +768,6 @@ figure {
   margin: 1em 0;
   font-size: 15px;
 }
-.post-tag .post-foot-link:hover {
-  color: #4db380;
-}
 .post-tag ul {
   display: inline;
   padding: 0;
@@ -783,6 +780,9 @@ figure {
 .post-tag ul li:hover a {
   color: #4db380;
   transition: .5s;
+}
+.post-tag .post-foot-link:hover {
+  color: #4db380;
 }
 .post-tag .fr {
   float: right;
