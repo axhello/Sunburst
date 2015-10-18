@@ -28,7 +28,7 @@ $this->need('header.php');
 					<ul>
         				<li><strong>></strong><?php $this->tags('</li><li>', true, '<a>None</a>') ?></li>
        				</ul>
-					<a href="#" class="post-foot-link fr">阅读更多</a>
+					<a href="<?php $this->permalink() ?>" class="post-foot-link fr">阅读更多</a>
 				</section> 
 			<?php endwhile; ?>
 			</article>
