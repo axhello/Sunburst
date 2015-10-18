@@ -25,7 +25,7 @@ $this->widget('Widget_Contents_Post_Recent', 'pageSize=10000')->to($archives);
         if ($year != $year_tmp && $year > 0) $output .= '</ul>';   
         if ($year != $year_tmp) {   
             $year = $year_tmp;   
-            $output .= '<details><summary><h3 class="al_year">'. $year .' 年</h3></summary><ul class="articles-ul">'; //输出年份   
+            $output .= '<h3 class="al_year">'. $year .' 年</h3><ul class="articles-ul">'; //输出年份   
         }   
         // if ($mon != $mon_tmp) {   
             $mon = $mon_tmp;   
@@ -34,7 +34,7 @@ $this->widget('Widget_Contents_Post_Recent', 'pageSize=10000')->to($archives);
             $day = $day_tmp;  
         $output .= '<li><a href="'.$archives->permalink .'">'. $archives->title .'</a>&nbsp;&nbsp;[<time>'.$mon.'月'.$day.'日'.'</time>]</li>'; //输出文章日期和标题   
     endwhile;   
-    $output .= '</ul></details></li></div>';   
+    $output .= '</ul></li></div>';   
     echo $output;   
 ?>
         </section>
