@@ -768,6 +768,9 @@ figure {
   margin: 1em 0;
   font-size: 15px;
 }
+.post-tag .post-foot-link:hover {
+  color: #4db380;
+}
 .post-tag ul {
   display: inline;
   padding: 0;
@@ -775,6 +778,7 @@ figure {
 .post-tag ul li {
   display: inline;
   padding: 6px;
+  color: #A0A0A0;
 }
 .post-tag ul li:hover a {
   color: #4db380;
@@ -785,7 +789,7 @@ figure {
   color: #A0A0A0;
 }
 .article-view-excerpt {
-  color: #A0A0A0;
+  color: #6D6D6D;
   font-size: 1em;
   letter-spacing: -0.0299em;
   line-height: 1.5;
