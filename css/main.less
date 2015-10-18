@@ -26,7 +26,9 @@
     -webkit-transition: .3s;
     transition: .3s;
 }
-
+*{
+	outline: 0;
+}
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -595,26 +597,23 @@ figure {
     flex: 0 0 auto;
     height: 24px;
     width: 24px;
-    svg{
-    fill: #ccc;
-    height: 24px;
-    width: 24px;}
-   
+    height: 34px;
+    width: 32px;
+    
 }
-.social-icon-weibo{
-	 &:hover svg{
-    	fill:#E43535; 	        
-    }
-}
-.social-icon-github{
-	 &:hover svg{
-	 	fill: #171715;
-	 }
-}
-.social-icon-rss{
-	 &:hover svg{
-	 	fill: #f93;
-	 }
+.social-icon{
+	.icon-weibo,.icon-email,.icon-github,.icon-rss{
+		height: 34px;
+    	width: 32px;
+		background-image: url('../img/icon.png');
+    	display: inline-block;
+	}
+	.icon-email{
+		background-position: -43px 0;
+	}
+	.icon-rss{
+		background-position: -128px 0;
+	}
 }
 .header-nav{
 	display: none;
@@ -731,7 +730,7 @@ figure {
 /*首页的css样式*/
 .page-title{
 	color: #aaa;
-	font-size: .8em;
+	font-size: 1em;
 	letter-spacing: .15em;
 	margin: 0;
 	text-align: center;
@@ -751,12 +750,12 @@ figure {
 }
 .articlelist-item{
 	position: relative;
-	border-top: 1px solid #eee;
+	border-top: 1px solid #aaa;
 }
 .article-view{
 	color: inherit;
 	display: block;
-	padding: 20px 0 15px 0;
+	padding-top: 1em;
 	text-decoration: none;
 	&:hover .article-view-title{
 		color: #4db380;
@@ -772,14 +771,34 @@ figure {
     line-height: 1.1;
 	display: block;
 	font-size: 1.5999em;
-	margin: 0 0 10px 0;
+	margin: 0 0 5px 0;
+}
+.post-tag{
+	margin: 1em 0;
+	font-size: 15px;
+	ul {
+	    display: inline;
+	    padding: 0;
+	    li {
+		    display: inline;
+		    padding: 6px;
+		    &:hover a{
+				color: #4db380;
+	    		transition: .5s;
+			}
+		}
+	}
+	.fr {
+	    float: right;
+	    color: #A0A0A0;
+	}
 }
 .article-view-excerpt{
-	color: #aaa;
-	font-size: .9em;
-	letter-spacing: -.02em;
+	color: #A0A0A0;
+	font-size: 1em;
+	letter-spacing: -0.0299em;
 	line-height: 1.5;
-	margin-top: 1em;
+	margin-top: .8em;
 }
 /*文章页面的css样式*/
 .content-header{
@@ -867,7 +886,7 @@ p code {
 
 .page-nav{
 	font-size: 16px;
-    margin: 20px 0 0 200px;
+    margin: 40px 0 0 200px;
 	ol,li{
 		margin: 0;
 		padding: 0;
@@ -960,6 +979,7 @@ p code {
 	margin: 0 0.5em;
 	.al_year {
     	margin: .3em 0;
+    	display: inline;
 	}
 }
 .articles-ul{
