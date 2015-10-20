@@ -392,6 +392,9 @@ figure {
     display: inline!important;
     padding: 0px!important;
   }
+  .post-tag ul li {
+    display: none!important;
+  }
   #comments {
     border-top: none!important;
   }
@@ -418,6 +421,9 @@ figure {
   font-size: 16px;
   line-height: 1.8;
   overflow: hidden;
+}
+.clearfix {
+  clear: both;
 }
 /*头部的css样式*/
 .header {
@@ -767,6 +773,7 @@ figure {
 .post-tag {
   margin: 1em 0;
   font-size: 15px;
+  float: left;
 }
 .post-tag ul {
   display: inline;
@@ -777,16 +784,23 @@ figure {
   padding: 6px;
   color: #A0A0A0;
 }
+.post-tag ul li img {
+  width: 20px;
+  vertical-align: sub;
+  margin-right: 6px;
+}
 .post-tag ul li:hover a {
   color: #4db380;
   transition: .5s;
 }
-.post-tag .post-foot-link:hover {
-  color: #4db380;
-}
-.post-tag .fr {
+.post-foot-link {
   float: right;
+  margin: 1em 0;
   color: #A0A0A0;
+  font-size: 15px;
+}
+.post-foot-link:hover {
+  color: #4db380;
 }
 .article-view-excerpt {
   color: #6D6D6D;
@@ -794,6 +808,7 @@ figure {
   letter-spacing: -0.0299em;
   line-height: 1.5;
   margin-top: .8em;
+  overflow: hidden;
 }
 /*文章页面的css样式*/
 .content-header {
@@ -963,7 +978,7 @@ p code {
 }
 /*归档页面css*/
 #archives {
-  margin: 0 0.5em;
+  margin: 0 1em;
 }
 #archives .al_year {
   margin: .3em 0;
@@ -972,7 +987,7 @@ p code {
 .articles-ul {
   list-style-type: square;
   padding: 0px 40px;
-  line-height: 1.6;
+  line-height: 1.5;
 }
 .articles-ul li a {
   color: #4db380;

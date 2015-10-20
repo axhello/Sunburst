@@ -413,6 +413,9 @@ figure {
 		    }
 		}
 	}
+	.post-tag ul li{
+		display: none!important;
+	}
 	#comments{
 		border-top:none!important;
 	}
@@ -421,7 +424,6 @@ figure {
 			border: none!important;
 		}
 	}
-	
 	.respond #comment-form {
 		input {
 			width: 100%!important;
@@ -445,7 +447,9 @@ figure {
     line-height: 1.8;
     overflow: hidden;
 }
-
+.clearfix{
+	clear:both;
+}
 /*头部的css样式*/
 .header{
 	-webkit-box-align:center;
@@ -776,7 +780,7 @@ figure {
 .post-tag{
 	margin: 1em 0;
 	font-size: 15px;
-	 
+	float: left;
 	ul {
 	    display: inline;
 	    padding: 0;
@@ -784,22 +788,26 @@ figure {
 		    display: inline;
 		    padding: 6px;
 		    color: #A0A0A0;
+		    img{
+		    	width: 20px;
+			    vertical-align: sub;
+			    margin-right: 6px;
+		    }
 		    &:hover a{
 				color: #4db380;
 	    		transition: .5s;
 			}
 		}
 	}
-	.post-foot-link{
-	 	&:hover{
+}
+.post-foot-link{
+	float: right;
+    margin: 1em 0;
+    color: #A0A0A0;
+    font-size: 15px;
+    &:hover{
 			color: #4db380;
-	 	}
-	}
-	.fr {
-	    float: right;
-	    color: #A0A0A0;
-
-	}
+	 }
 }
 
 .article-view-excerpt{
@@ -808,6 +816,7 @@ figure {
 	letter-spacing: -0.0299em;
 	line-height: 1.5;
 	margin-top: .8em;
+	overflow: hidden;
 }
 /*文章页面的css样式*/
 .content-header{
@@ -985,7 +994,7 @@ p code {
 }
 /*归档页面css*/
 #archives{
-	margin: 0 0.5em;
+	margin: 0 1em;
 	.al_year {
     	margin: .3em 0;
     	display: inline;
@@ -994,7 +1003,7 @@ p code {
 .articles-ul{
 	list-style-type: square;
 	padding: 0px 40px;
-	line-height: 1.6;
+	line-height: 1.5;
 	li{
 		a{
 			color: #4db380;
