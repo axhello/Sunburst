@@ -26,7 +26,7 @@ $this->need('header.php');
 					<div class="article-view-excerpt"><?php $this->excerpt('350', '...') ?></div>
 					<div class="post-tag">
 					<ul>
-        				<li><img src="<?php $this->options->themeUrl('img/tags.svg'); ?>"><?php $this->tags('</li><li>', true, '<a>None</a>') ?></li>
+        				<li><img style="width: 20px;" src="<?php $this->options->themeUrl('img/tags.svg'); ?>"><?php $this->tags('</li><li>', true, '<a>None</a>') ?></li>
        				</ul>
 					</div>
 					<a href="<?php $this->permalink() ?>" class="post-foot-link fr">阅读更多</a>

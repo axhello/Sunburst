@@ -379,7 +379,7 @@ figure {
     display: block!important;
   }
   .page-nav {
-    margin: 15px 0 0 25px!important;
+    margin: 4.5em 0 0 0!important;
   }
   .hentry {
     margin-bottom: 80px!important;
@@ -897,7 +897,7 @@ p code {
 }
 .page-nav {
   font-size: 16px;
-  margin: 40px 0 0 200px;
+  margin: 5em 0 0 0;
 }
 .page-nav ol,
 .page-nav li {
