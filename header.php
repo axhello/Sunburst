@@ -31,13 +31,13 @@
 		<a href="/" class="header-photo" title="Home"></a>
 		<div class="header-social">
 			<nav class="socialnav">
-			<a href="#" target="_blank" class="social-icon" title="github">
+			<a href="#" target="_blank" class="social-icon" title="Weibo">
 				<span class="icon-weibo"></span>
 			</a>
-			<a href="#" target="_blank" class="social-icon" title="weibo">
+			<a href="#" target="_blank" class="social-icon" title="Email">
 				<span class="icon-email"></span>
 			</a>
-			<a href="<?php $this->options->feedUrl(); ?>" target="_blank" class="social-icon" title="rss">
+			<a href="<?php $this->options->feedUrl(); ?>" target="_blank" class="social-icon" title="Rss">
 				<span class="icon-rss"></span>
 			</a>
 			</nav>

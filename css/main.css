@@ -606,6 +606,9 @@ figure {
   background-image: url('../img/icon.png');
   display: inline-block;
 }
+.social-icon .icon-github {
+  background-position: -85px 0;
+}
 .social-icon .icon-email {
   background-position: -43px 0;
 }
