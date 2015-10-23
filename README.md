@@ -21,7 +21,7 @@ Typecho 主题 Sunburst--手机端响应式主题
 ### 主题更新
 * 更改了页面宽度，并且在首页加入了tag标签;
 * 替换了svg图片，修改了界面的一些小细节;
-* 加入了Links友情链接模板,需要自行安装links插件
+* 加入了Links友情链接模板，需要自行安装links插件
 
 ##主题演示
 ###<a href="https://ciyuanai.net/?theme=Sunburst" target="_blank">[Demo]</a>
