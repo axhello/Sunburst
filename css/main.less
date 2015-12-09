@@ -131,12 +131,6 @@ pre {
     overflow: hidden;
 }
 
-code,kbd,pre,samp {
-    font-family: monospace;
-    font-size: 1em;
-     overflow: hidden;
-}
-
 button,input,optgroup,select,textarea {
     color: inherit;
     font: inherit;
@@ -836,8 +830,15 @@ figure {
 li code {
     color: #d14;
 }
-p code {
+article p>code {
     color: #d14;
+    font-family: Consolas;
+    margin: 0 2px;
+    padding: 1px 5px;
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    white-space: normal;
 }
 
 .typo{
@@ -859,7 +860,8 @@ p code {
 	    border: 1px solid #BFBEBE;
 	    overflow: auto;
 	    padding: 1em 1em;
-	    margin: 0;
+	    margin: 1em 0;
+	    font-size: 14px;
 	    border-radius: 3px;
 	    code{
 	    	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
@@ -876,6 +878,7 @@ p code {
 	    }
 	}
 }
+
 .typo {
 	h1{
 		font-size:2em;
