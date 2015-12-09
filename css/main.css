@@ -820,10 +820,8 @@ figure {
   font-size: .9em;
   margin: 1.1em 0 0;
 }
+article p > code,
 li code {
-  color: #d14;
-}
-article p > code {
   color: #d14;
   font-family: Consolas;
   margin: 0 2px;
