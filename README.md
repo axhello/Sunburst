@@ -21,6 +21,11 @@ Typecho 主题 Sunburst--手机端响应式主题
 * 更改了页面宽度，并且在首页加入了tag标签；
 * 替换了svg图片，修改了界面的一些小细节；
 * 加入了Links友情链接模板，需要自行安装links插件；
+
+
+**2015-12-09**
+
+
 * 把`Prettify`插件换成`Prism`插件，使用方法：markdown格式的`<pre>``<code>`后面加上你想要高亮的语言，<a href="http://7xkssc.com1.z0.glb.clouddn.com/20151209135143.png" target="_blank">[如图]</a>；
 * 调整评论框为并排一列，手机端自适应；
 * 调整了其他的一些小细节
