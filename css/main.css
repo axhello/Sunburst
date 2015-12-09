@@ -116,7 +116,8 @@ hr {
   margin: 1em 0 1.8em 0;
 }
 pre {
-  overflow: auto;
+  margin: 0;
+  overflow: hidden;
 }
 code,
 kbd,
@@ -124,6 +125,7 @@ pre,
 samp {
   font-family: monospace;
   font-size: 1em;
+  overflow: hidden;
 }
 button,
 input,
@@ -249,21 +251,6 @@ article a code {
 article sup a {
   background: 0;
 }
-code {
-  background: #f6f5f3;
-  border-radius: 2px;
-  font-family: Consolas, "Liberation Mono", Menlo, Courier, Monaco, monospace;
-  font-size: .8em;
-  padding: 2px 3px 1px;
-  -webkit-font-smoothing: initial;
-  -moz-osx-font-smoothing: initial;
-}
-pre code {
-  background: inherit;
-  color: inherit;
-  display: block;
-  padding: 0;
-}
 blockquote {
   color: #666;
   font-style: normal;
@@ -324,6 +311,13 @@ figure {
   .site-contentContainer {
     margin-left: 20em!important;
     padding: 5em 3em 3em!important;
+  }
+  .respond #comment-form p {
+    display: inline!important;
+  }
+  .respond #comment-form label {
+    display: inherit!important;
+    font-size: 15px!important;
   }
 }
 @media (min-width: 1000px) {
@@ -856,22 +850,23 @@ p code {
 .typo pre {
   background-color: #f8f8f8;
   border: 1px solid #BFBEBE;
-  font-size: 13px;
   overflow: auto;
   padding: 1em 1em;
+  margin: 0;
   border-radius: 3px;
 }
 .typo pre code {
-  margin: 0;
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  display: inline;
+  max-width: initial;
+  direction: ltr;
   padding: 0;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
   background-color: transparent;
-  border: none;
-}
-.typo code {
-  padding: 2px 2px;
-  border: 1px solid #ddd;
-  background-color: #f8f8f8;
-  border-radius: 3px;
+  border: 0;
 }
 .typo h1 {
   font-size: 2em;
@@ -1230,7 +1225,7 @@ p code {
   padding: 5px 6px;
   line-height: 16px;
   height: 38px;
-  width: 33.33333%;
+  width: 33%;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -ms-box-sizing: border-box;
@@ -1244,6 +1239,12 @@ p code {
 .textarea {
   margin: .5em 0;
   width: 100%;
+}
+.textarea:focus {
+  border-color: #99baca;
+  outline: 0;
+  background: #FBFCFD;
+  color: #444;
 }
 .submit {
   background-color: #3498db;

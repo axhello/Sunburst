@@ -9,12 +9,12 @@
 	            'search'    =>  _t('包含关键字 %s 的文章'),
 	            'tag'       =>  _t('标签 %s 下的文章'),
 	            'author'    =>  _t('%s 发布的文章')
-	        ), '', ' - '); ?><?php $this->options->title(); ?> | <?php $this->options->description(); ?></title>
+	        ), '', ' - '); ?><?php $this->options->title(); ?><?php if ($this->is('index')) : ?> - <?php $this->options->description(); ?><?php endif; ?></title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	
 	<link rel="stylesheet" href="<?php $this->options->themeUrl('css/main.css'); ?>">
-	<link rel="stylesheet" href="<?php $this->options->themeUrl('css/prettify.css'); ?>">
+	<link rel="stylesheet" href="<?php $this->options->themeUrl('css/prism.css'); ?>">
 	<?php $this->header(); ?>   <!-- 通过自有函数输出HTML头部信息 -->
 </head>
 <body class="site nav-hide">
