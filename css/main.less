@@ -37,6 +37,8 @@ sans-serif;
 
 * {
     outline: 0;
+    word-break: break-all;
+    word-wrap: break-word;
 }
 
 html {
@@ -389,10 +391,6 @@ figure {
     }
     .respond #comment-form p {
         display: inline!important;
-    }
-    .respond #comment-form label {
-        display: inherit!important;
-        font-size: 15px!important;
     }
 }
 
@@ -1375,11 +1373,7 @@ li code {
             margin: .5em 0;
         }
         label {
-            display: block;
-            font-size: 16px;
-            color: #888;
-            position: absolute;
-            margin: 7px;
+            display: none;
         }
         input {
             padding: 5px 6px;
@@ -1392,7 +1386,6 @@ li code {
             box-sizing: border-box;
             border: 1px solid #eee;
             background: #fdfdfd;
-            padding-left: 45px;
             -webkit-transition: both 1s;
             transition: both 1s;
         }
