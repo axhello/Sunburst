@@ -30,8 +30,8 @@ Typecho 主题 Sunburst--手机端响应式主题
 * 调整评论框为并排一列，手机端自适应；
 * 调整了其他的一些小细节
 
-##主题演示
-###<a href="https://ciyuanai.net/?theme=Sunburst" target="_blank">[Demo]</a>
+![1](https://o72gatjmx.qnssl.com/2015/09/3545153507.jpg)
+![2](https://o72gatjmx.qnssl.com/2015/09/3814110634.jpg)
 
 ##主题下载
 ###<a href="https://github.com/melifes/Sunburst/archive/master.zip" target="_blank">[Download]</a>
